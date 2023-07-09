@@ -46,3 +46,4 @@ try:
             email TEXT,
             téléphone TEXT,
             sexe TEXT,
+            image TEXT,
