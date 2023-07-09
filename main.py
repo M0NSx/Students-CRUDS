@@ -7,3 +7,4 @@ except sqlite3.Error as erreur:
     print("Il n'a pas été possible de se connecter dans data base", erreur)
 
 try:
+    with banque:
