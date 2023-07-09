@@ -28,3 +28,4 @@ try:
             id INTEGER PRIMARY KEY AUTOINCREMENT,
             nom TEXT,
             course_nom TEXT,
+            initiale_date DATE,
