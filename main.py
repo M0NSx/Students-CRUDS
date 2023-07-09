@@ -8,3 +8,4 @@ except sqlite3.Error as erreur:
 
 try:
     with banque:
+        cur = banque.cursor()
