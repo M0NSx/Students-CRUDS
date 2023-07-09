@@ -29,3 +29,4 @@ try:
             nom TEXT,
             course_nom TEXT,
             initiale_date DATE,
+            FOREIGN KEY (course_nom) REFERENCES courses (nom) ON UPDATE CASCADE ON DELETE CASCADE
