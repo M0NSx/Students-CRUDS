@@ -31,3 +31,5 @@ try:
             initiale_date DATE,
             FOREIGN KEY (course_nom) REFERENCES courses (nom) ON UPDATE CASCADE ON DELETE CASCADE
 )""")
+
+        print("Table classes créé avec succès")
