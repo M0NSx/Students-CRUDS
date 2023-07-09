@@ -51,3 +51,5 @@ try:
             cpf TEXT,
             classe_nom TEXT,
             FOREIGN KEY (classe_nom) REFERENCES classe (nom) ON DELETE CASCADE
+)""")
+
