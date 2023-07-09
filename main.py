@@ -11,3 +11,4 @@ try:
         cur = banque.cursor()
         cur.execute(""" CREATE TABLE IF NOT EXISTS courses(
             id INTEGER PRIMARY KEY AUTOINCREMENT,
+            nom TEXT,
