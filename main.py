@@ -43,3 +43,4 @@ try:
         cur.execute(""" CREATE TABLE IF NOT EXISTS classes(
             id INTEGER PRIMARY KEY AUTOINCREMENT,
             nom TEXT,
+            email TEXT,
