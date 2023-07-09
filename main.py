@@ -35,3 +35,4 @@ try:
         print("Table classes créé avec succès")
 
 except sqlite3.Error as erreur:
+    print("il n'a pas été possible de se créé la table classes", erreur)
