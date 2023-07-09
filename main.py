@@ -13,3 +13,4 @@ try:
             id INTEGER PRIMARY KEY AUTOINCREMENT,
             nom TEXT,
             durée TEXT,
+            prix REAL
