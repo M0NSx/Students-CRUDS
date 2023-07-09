@@ -48,3 +48,4 @@ try:
             sexe TEXT,
             image TEXT,
             date_naissance DATE,
+            cpf TEXT,
