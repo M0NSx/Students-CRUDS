@@ -17,3 +17,4 @@ try:
         )""")
 
 
+        print("Table courses créé avec succès")
