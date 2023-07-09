@@ -45,3 +45,4 @@ try:
             nom TEXT,
             email TEXT,
             téléphone TEXT,
+            sexe TEXT,
