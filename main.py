@@ -41,3 +41,4 @@ try:
     with banque:
         cur = banque.cursor()
         cur.execute(""" CREATE TABLE IF NOT EXISTS classes(
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
