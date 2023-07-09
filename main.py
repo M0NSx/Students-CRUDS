@@ -38,3 +38,4 @@ except sqlite3.Error as erreur:
     print("il n'a pas été possible de se créé la table classes", erreur)
 
 try:
+    with banque:
