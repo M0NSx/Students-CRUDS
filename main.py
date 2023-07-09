@@ -40,3 +40,4 @@ except sqlite3.Error as erreur:
 try:
     with banque:
         cur = banque.cursor()
+        cur.execute(""" CREATE TABLE IF NOT EXISTS classes(
