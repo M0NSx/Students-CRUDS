@@ -44,3 +44,4 @@ try:
             id INTEGER PRIMARY KEY AUTOINCREMENT,
             nom TEXT,
             email TEXT,
+            téléphone TEXT,
