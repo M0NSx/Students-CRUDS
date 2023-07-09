@@ -49,3 +49,4 @@ try:
             image TEXT,
             date_naissance DATE,
             cpf TEXT,
+            classe_nom TEXT,
