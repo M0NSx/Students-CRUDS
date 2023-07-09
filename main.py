@@ -14,3 +14,6 @@ try:
             nom TEXT,
             durée TEXT,
             prix REAL
+        )""")
+
+
