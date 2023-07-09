@@ -53,3 +53,4 @@ try:
             FOREIGN KEY (classe_nom) REFERENCES classe (nom) ON DELETE CASCADE
 )""")
 
+        print("Table étudiants créé avec succès")
