@@ -18,3 +18,4 @@ try:
 
 
         print("Table courses créé avec succès")
+except sqlite3.Error as erreur:
