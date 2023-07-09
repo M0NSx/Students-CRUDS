@@ -56,3 +56,4 @@ try:
         print("Table étudiants créé avec succès")
 
 except sqlite3.Error as erreur:
+    print("il n'a pas été possible de se créé la table étudiants", erreur)
