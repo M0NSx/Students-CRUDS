@@ -28,3 +28,4 @@ def voir_cours():
 
 def update_cours(i):
     with banque:
+        cur = banque.cursor()
