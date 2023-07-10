@@ -11,3 +11,5 @@ def créer_cours(i):
         cur = banque.cursor()
         query = "INSERT INTO courses (nom, durée, prix) VALUES (?,?,?)"
         cur.execute(query, i)
+
+#créer_cours(['Python','cinq semaines', 60])
