@@ -31,3 +31,6 @@ def update_cours(i):
         cur = banque.cursor()
         query = "UPDATE courses SET nom=?, durée=?, prix=?, WHERE id=?"
         cur.execute(query, i)
+
+liste = ['Python','cinq semaines', 60, 1]
+
