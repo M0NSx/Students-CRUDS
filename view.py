@@ -25,3 +25,5 @@ def voir_cours():
     return liste
 
 #print(voir_cours())
+
+def update_cours(i):
