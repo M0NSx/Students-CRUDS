@@ -16,3 +16,4 @@ def créer_cours(i):
 
 def voir_cours():
     liste = []
+    with banque:
