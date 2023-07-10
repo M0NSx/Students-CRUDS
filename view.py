@@ -23,3 +23,5 @@ def voir_cours():
         for i in ligne:
             liste.append(i)
     return liste
+
+#print(voir_cours())
