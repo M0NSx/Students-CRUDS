@@ -15,3 +15,4 @@ def créer_cours(i):
 #créer_cours(['Python','cinq semaines', 60])
 
 def voir_cours():
+    liste = []
