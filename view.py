@@ -18,3 +18,4 @@ def voir_cours():
     liste = []
     with banque:
         cur = banque.cursor()
+        cur.execute('SELECT * FROM courses')
