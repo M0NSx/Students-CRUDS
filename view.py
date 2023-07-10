@@ -39,3 +39,5 @@ def supprimer_cours(i):
         cur = banque.cursor()
         query = "DELETE FROM courses WHERE id=?"
         cur.execute(query, i)
+
+#supprimer_cours([7])
