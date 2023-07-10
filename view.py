@@ -19,3 +19,4 @@ def voir_cours():
     with banque:
         cur = banque.cursor()
         cur.execute('SELECT * FROM courses')
+        ligne = cur.fetchall()
