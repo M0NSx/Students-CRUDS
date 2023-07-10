@@ -21,3 +21,4 @@ def voir_cours():
         cur.execute('SELECT * FROM courses')
         ligne = cur.fetchall()
         for i in ligne:
+            liste.append(i)
