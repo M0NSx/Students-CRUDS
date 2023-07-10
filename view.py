@@ -5,3 +5,5 @@ try:
   print("Data base été connecter avec succès")
 except sqlite3.Error as erreur:
   print("Il n'a pas été possible de se connecter dans data base", erreur)
+
+def créer_cours(i):
