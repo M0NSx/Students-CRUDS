@@ -35,3 +35,4 @@ def update_cours(i):
 liste = ['Python','cinq semaines', 60, 1]
 
 def supprimer_cours(i):
+    with banque:
