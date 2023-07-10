@@ -10,3 +10,4 @@ def créer_cours(i):
     with banque:
         cur = banque.cursor()
         query = "INSERT INTO courses (nom, durée, prix) VALUES (?,?,?)"
+        cur.execute(query, i)
