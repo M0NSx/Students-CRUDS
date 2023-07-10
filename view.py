@@ -8,3 +8,4 @@ except sqlite3.Error as erreur:
 
 def créer_cours(i):
     with banque:
+        cur = banque.cursor()
