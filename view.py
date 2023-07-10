@@ -36,3 +36,4 @@ liste = ['Python','cinq semaines', 60, 1]
 
 def supprimer_cours(i):
     with banque:
+        cur = banque.cursor()
