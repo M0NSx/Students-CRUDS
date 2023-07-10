@@ -22,3 +22,4 @@ def voir_cours():
         ligne = cur.fetchall()
         for i in ligne:
             liste.append(i)
+    return liste
