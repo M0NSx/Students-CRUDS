@@ -27,3 +27,4 @@ def voir_cours():
 #print(voir_cours())
 
 def update_cours(i):
+    with banque:
