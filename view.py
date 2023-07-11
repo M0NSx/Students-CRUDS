@@ -98,3 +98,4 @@ def update_étudiants(i):
 
 def supprimer_étudiants(i):
     with banque:
+        cur = banque.cursor()
