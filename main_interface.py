@@ -11,3 +11,4 @@ co2 = "#e5e5e5"  # gris
 co3 = "#00a095"  # vert
 co4 = "#403d3d"   # lettre
 co6 = "#003452"   # bleu
+co7 = "#ef5350"   # rouge
