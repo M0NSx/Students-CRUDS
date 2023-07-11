@@ -59,3 +59,5 @@ def voir_classes():
         for i in ligne:
             liste.append(i)
     return liste
+
+def update_classes(i):
