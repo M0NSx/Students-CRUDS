@@ -41,3 +41,8 @@ def supprimer_cours(i):
         cur.execute(query, i)
 
 #supprimer_cours([7])
+
+#Tableau de classes
+def créer_classes(i):
+    with banque:
+        cur = banque.cursor()
