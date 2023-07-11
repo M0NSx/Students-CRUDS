@@ -61,3 +61,4 @@ def voir_classes():
     return liste
 
 def update_classes(i):
+    with banque:
