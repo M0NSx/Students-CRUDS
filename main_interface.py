@@ -38,3 +38,5 @@ ttk.Separator(fenêtre, orient=HORIZONTAL).grid(row=3, columnspan=1, ipadx=680)
 
 frame_détails = Frame(fenêtre, width=850, height=200, bg=co1)
 frame_détails.grid(row=4, column=0, pady=0, padx=10, sticky=NSEW)
+
+frame_tableau = Frame(fenêtre, width=850, height=200, bg=co1)
