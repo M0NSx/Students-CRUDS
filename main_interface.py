@@ -16,3 +16,6 @@ co7 = "#ef5350"   # rouge
 co6 = "#038cfc"   # bleu
 co8 = "#263238"   # + vert
 co9 = "#e9edf5"   # + vert
+
+#créer fenêtre
+fenêtre = Tk()
