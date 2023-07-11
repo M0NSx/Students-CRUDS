@@ -69,3 +69,4 @@ def update_classes(i):
 def supprimer_classes(i):
     with banque:
         cur = banque.cursor()
+        query = "DELETE FROM classes WHERE id=?"
