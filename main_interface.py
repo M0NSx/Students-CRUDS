@@ -7,3 +7,4 @@ from tkinter import filedialog as fd
 # couleurs
 co0 = "#2e2d2b"  # noir
 co1 = "#feffff"  # blanc 
+co2 = "#e5e5e5"  # gris
