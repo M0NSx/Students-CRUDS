@@ -62,3 +62,4 @@ def voir_classes():
 
 def update_classes(i):
     with banque:
+        cur = banque.cursor()
