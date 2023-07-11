@@ -75,3 +75,6 @@ def supprimer_classes(i):
 #Tableau de étudiants
 def créer_étudiants(i):
     with banque:
+        cur = banque.cursor()
+        query = "INSERT INTO étudiants (nom, email, téléphone, sexe, image, date_naissance, cpf, classe_nom) VALUES (?,?,?,?,?,?,?,?)"
+        cur.execute(query, i)
