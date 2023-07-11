@@ -71,3 +71,7 @@ def supprimer_classes(i):
         cur = banque.cursor()
         query = "DELETE FROM classes WHERE id=?"
         cur.execute(query, i)
+
+#Tableau de étudiants
+def créer_étudiants(i):
+    with banque:
