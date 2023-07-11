@@ -78,3 +78,5 @@ def créer_étudiants(i):
         cur = banque.cursor()
         query = "INSERT INTO étudiants (nom, email, téléphone, sexe, image, date_naissance, cpf, classe_nom) VALUES (?,?,?,?,?,?,?,?)"
         cur.execute(query, i)
+
+def voir_étudiants():
