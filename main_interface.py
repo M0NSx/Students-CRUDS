@@ -40,3 +40,6 @@ frame_détails = Frame(fenêtre, width=850, height=200, bg=co1)
 frame_détails.grid(row=4, column=0, pady=0, padx=10, sticky=NSEW)
 
 frame_tableau = Frame(fenêtre, width=850, height=200, bg=co1)
+frame_tableau.grid(row=5, column=0, pady=0, padx=10, sticky=NSEW)
+
+fenêtre.mainloop()
