@@ -93,3 +93,4 @@ def voir_étudiants():
 def update_étudiants(i):
     with banque:
         cur = banque.cursor()
+        query = "UPDATE classes SET nom=?, email=?, téléphone=?, sexe=?, image=?, date_naissance=? cpf=?, classe_nom=?, WHERE id=?"
