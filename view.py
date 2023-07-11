@@ -89,3 +89,5 @@ def voir_étudiants():
         for i in ligne:
             liste.append(i)
     return liste
+
+def update_étudiants(i):
