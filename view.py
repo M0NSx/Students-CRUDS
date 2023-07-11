@@ -55,3 +55,7 @@ def voir_classes():
         cur = banque.cursor()
         cur.execute('SELECT * FROM classes')
         ligne = cur.fetchall()
+
+        for i in ligne:
+            liste.append(i)
+    return liste
