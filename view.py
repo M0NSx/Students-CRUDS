@@ -52,3 +52,6 @@ def créer_classes(i):
 def voir_classes():
     liste = []
     with banque:
+        cur = banque.cursor()
+        cur.execute('SELECT * FROM classes')
+        ligne = cur.fetchall()
