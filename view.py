@@ -80,3 +80,6 @@ def créer_étudiants(i):
         cur.execute(query, i)
 
 def voir_étudiants():
+    liste = []
+    with banque:
+        cur = banque.cursor()
