@@ -92,3 +92,4 @@ def voir_étudiants():
 
 def update_étudiants(i):
     with banque:
+        cur = banque.cursor()
