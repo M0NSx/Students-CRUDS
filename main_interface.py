@@ -25,3 +25,6 @@ fenêtre.configure(background=co1)
 fenêtre.resizable(width=FALSE, height=FALSE)
 style = Style(fenêtre)
 style.theme_use("clam")
+
+# Créer Frames
+frame_logo = Frame(fenêtre, width=850, height=52, bg=co6)
