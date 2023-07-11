@@ -19,3 +19,4 @@ co9 = "#e9edf5"   # + vert
 
 #créer fenêtre
 fenêtre = Tk()
+fenêtre.title("")
