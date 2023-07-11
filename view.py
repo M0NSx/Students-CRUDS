@@ -68,3 +68,4 @@ def update_classes(i):
 
 def supprimer_classes(i):
     with banque:
+        cur = banque.cursor()
