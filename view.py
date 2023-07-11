@@ -67,3 +67,4 @@ def update_classes(i):
         cur.execute(query, i)
 
 def supprimer_classes(i):
+    with banque:
