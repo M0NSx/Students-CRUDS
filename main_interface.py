@@ -96,5 +96,6 @@ app_registre.place(x=10, y=30)
 app_img_ajouter = Image.open('add_logo.png')
 app_img_ajouter = app_img_ajouter.resize((18,18))
 app_img_ajouter = ImageTk.PhotoImage(app_img_ajouter)
+app_ajouter = Button(frame_données, command=lambda:control('Ajouter'), image=app_img_ajouter, text="Ajouter", width=100, compound=LEFT, overrelief=RIDGE, font=('Ivy 11'), bg=co1, fg=co0)
 
 fenêtre.mainloop()
