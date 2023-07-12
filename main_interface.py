@@ -101,5 +101,6 @@ app_ajouter.place(x=123, y=30)
 
 app_img_sauver = Image.open('save_logo.png')
 app_img_sauver = app_img_sauver.resize((18,18))
+app_img_sauver = ImageTk.PhotoImage(app_img_sauver)
 
 fenêtre.mainloop()
