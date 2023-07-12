@@ -78,4 +78,6 @@ def control(i):
 
         Ajouter()
 
+    if i == 'Sauver':
+
 fenêtre.mainloop()
