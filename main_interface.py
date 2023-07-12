@@ -58,4 +58,7 @@ def Ajouter():
 
 def Sauver():
     print("Sauver")
+
+def control(i):
+    if i == 'Registre':
 fenêtre.mainloop()
