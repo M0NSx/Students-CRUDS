@@ -43,6 +43,7 @@ frame_tableau = Frame(fenêtre, width=850, height=200, bg=co1)
 frame_tableau.grid(row=5, column=0, pady=0, padx=10, sticky=NSEW)
 
 app_logo = Image.open('étudiant_logo.png')
+app_logo = app_logo.resize((50,50))
 
 
 fenêtre.mainloop()
