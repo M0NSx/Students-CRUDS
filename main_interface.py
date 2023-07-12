@@ -79,5 +79,6 @@ def control(i):
         Ajouter()
 
     if i == 'Sauver':
+        for widget in frame_détails.winfo_children():
 
 fenêtre.mainloop()
