@@ -95,5 +95,6 @@ app_registre.place(x=10, y=30)
 
 app_img_ajouter = Image.open('add_logo.png')
 app_img_ajouter = app_img_ajouter.resize((18,18))
+app_img_ajouter = ImageTk.PhotoImage(app_img_ajouter)
 
 fenêtre.mainloop()
