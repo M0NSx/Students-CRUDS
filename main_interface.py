@@ -91,5 +91,6 @@ app_img_registre = Image.open('add_logo.png')
 app_img_registre = app_img_registre.resize((18,18))
 app_img_registre = ImageTk.PhotoImage(app_img_registre)
 app_registre = Button(frame_données, command=lambda:control('Registre'), image=app_img_registre, text="Registre", width=100, compound=LEFT, overrelief=RIDGE, font=('Ivy 11'), bg=co1, fg=co0)
+app_registre.place(x=10, y=30)
 
 fenêtre.mainloop()
