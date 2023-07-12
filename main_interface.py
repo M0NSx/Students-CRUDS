@@ -100,5 +100,6 @@ app_ajouter = Button(frame_données, command=lambda:control('Ajouter'), image=ap
 app_ajouter.place(x=123, y=30)
 
 app_img_sauver = Image.open('save_logo.png')
+app_img_sauver = app_img_sauver.resize((18,18))
 
 fenêtre.mainloop()
