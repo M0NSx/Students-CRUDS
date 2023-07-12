@@ -53,4 +53,7 @@ app_lg.place(x=0, y=0)
 def Étudiants():
     print("Étudiant")
 
+def Ajouter():
+    print("Cours et classes")
+
 fenêtre.mainloop()
