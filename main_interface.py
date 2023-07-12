@@ -80,5 +80,6 @@ def control(i):
 
     if i == 'Sauver':
         for widget in frame_détails.winfo_children():
+            widget.destroy()
 
 fenêtre.mainloop()
