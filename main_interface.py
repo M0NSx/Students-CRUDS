@@ -89,5 +89,6 @@ def control(i):
 
 app_img_registre = Image.open('add_logo.png')
 app_img_registre = app_img_registre.resize((18,18))
+app_img_registre = ImageTk.PhotoImage(app_img_registre)
 
 fenêtre.mainloop()
