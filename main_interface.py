@@ -87,4 +87,6 @@ def control(i):
 
         Sauver()
 
+app_img_registre = Image.open('add_logo.png')
+
 fenêtre.mainloop()
