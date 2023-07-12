@@ -56,4 +56,6 @@ def Étudiants():
 def Ajouter():
     print("Cours et classes")
 
+def Sauver():
+    print("Sauver")
 fenêtre.mainloop()
