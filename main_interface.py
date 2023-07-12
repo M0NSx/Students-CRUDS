@@ -69,4 +69,6 @@ def control(i):
 
         Étudiants()
 
+    if i == 'Ajouter':
+
 fenêtre.mainloop()
