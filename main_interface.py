@@ -45,6 +45,7 @@ frame_tableau.grid(row=5, column=0, pady=0, padx=10, sticky=NSEW)
 app_logo = Image.open('étudiant_logo.png')
 app_logo = app_logo.resize((50,50))
 app_logo = ImageTk.PhotoImage(app_logo)
-
+app_lg = Label(frame_logo, image=app_logo, text="Registre des étudiants", width=850, compound=LEFT, relief=RAISED, anchor=NW, font=('Ivy 15 bold'), bg=co6, fg=co1)
+app_lg.place(x=0, y=0)
 
 fenêtre.mainloop()
