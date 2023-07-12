@@ -61,4 +61,6 @@ def Sauver():
 
 def control(i):
     if i == 'Registre':
+        for widget in frame_détails.winfo_children():
+
 fenêtre.mainloop()
