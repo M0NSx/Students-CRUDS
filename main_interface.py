@@ -94,5 +94,6 @@ app_registre = Button(frame_données, command=lambda:control('Registre'), image=
 app_registre.place(x=10, y=30)
 
 app_img_ajouter = Image.open('add_logo.png')
+app_img_ajouter = app_img_ajouter.resize((18,18))
 
 fenêtre.mainloop()
