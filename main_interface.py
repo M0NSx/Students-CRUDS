@@ -102,5 +102,6 @@ app_ajouter.place(x=123, y=30)
 app_img_sauver = Image.open('save_logo.png')
 app_img_sauver = app_img_sauver.resize((18,18))
 app_img_sauver = ImageTk.PhotoImage(app_img_sauver)
+app_sauver = Button(frame_données, command=lambda:control('Sauver'), image=app_img_sauver, text="Sauver", width=100, compound=LEFT, overrelief=RIDGE, font=('Ivy 11'), bg=co1, fg=co0)
 
 fenêtre.mainloop()
