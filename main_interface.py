@@ -44,6 +44,7 @@ frame_tableau.grid(row=5, column=0, pady=0, padx=10, sticky=NSEW)
 
 app_logo = Image.open('étudiant_logo.png')
 app_logo = app_logo.resize((50,50))
+app_logo = ImageTk.PhotoImage(app_logo)
 
 
 fenêtre.mainloop()
