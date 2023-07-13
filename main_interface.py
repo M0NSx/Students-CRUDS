@@ -55,6 +55,7 @@ def Étudiants():
 
 def Ajouter():
     frame_tableau_cours = Frame(frame_tableau, width=300, height=200, bg=co1)
+    frame_tableau_cours.grid(row=0, column=0, pady=0, padx=0, sticky=NSEW)
 
 def Sauver():
     print("Sauver")
