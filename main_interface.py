@@ -70,6 +70,7 @@ def Ajouter():
 
     l_durée = Label(frame_détails, text="Durée", height=1, anchor=NW, font=("Ivy 10"), bg=co1, fg=co4)
     l_durée.place(x=4, y=70)
+    e_durée = Entry(frame_détails, width=20, justify="left", relief="solid")
 
 def Sauver():
     print("Sauver")
