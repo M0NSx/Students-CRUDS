@@ -93,6 +93,9 @@ def Ajouter():
 
         list_header = ['ID','Cours','Durée','Prix']
 
+        df_list = []
+
+        global tree_cours
 def Sauver():
     print("Sauver")
 
