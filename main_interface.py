@@ -90,6 +90,9 @@ def Ajouter():
     def montrer_cours():
         app_nome = Label(frame_tableau_cours, text="Tableau du cours", height=1,pady=0, padx=0, relief="flat", anchor=NW, font=('Ivy 10 bold'), bg=co1, fg=co4)
         app_nome.grid(row=0, column=0, padx=0, pady=10, sticky=NSEW)
+
+        list_header = ['ID','Cours','Durée','Prix']
+
 def Sauver():
     print("Sauver")
 
