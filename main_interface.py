@@ -54,7 +54,7 @@ def Étudiants():
     print("Étudiant")
 
 def Ajouter():
-    print("Cours et classes")
+    frame_tableau_cours = Frame(frame_tableau, width=300, height=200, bg=co1)
 
 def Sauver():
     print("Sauver")
