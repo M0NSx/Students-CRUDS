@@ -112,6 +112,9 @@ def Ajouter():
         hd=["nw","nw","e","e"]
         h=[30,150,80,60]
         n=0
+
+        for col in list_header:
+
 def Sauver():
     print("Sauver")
 
