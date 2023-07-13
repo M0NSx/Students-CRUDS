@@ -82,6 +82,7 @@ def Ajouter():
     bouton_sauver1.place(x=107, y=160)
 
     bouton_update1 = Button(frame_détails, anchor=CENTER, text="Update".upper(), width=10, overrelief=RIDGE, font=("Ivy 7"), bg=co6, fg=co1)
+    bouton_update1.place(x=187, y=160)
 
 def Sauver():
     print("Sauver")
