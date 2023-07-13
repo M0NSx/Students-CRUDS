@@ -117,6 +117,12 @@ def Ajouter():
             tree_cours.heading(col, text=col.title(), anchor=NW)
             tree_cours.column(col, width=h[n],anchor=hd[n])
 
+            n+=1
+
+        for item in df_list:
+            tree_cours.insert('', 'end', values=item)
+
+    montrer_cours()
 def Sauver():
     print("Sauver")
 
