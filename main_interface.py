@@ -69,6 +69,7 @@ def Ajouter():
     e_nom_cours.place(x=7, y=40)
 
     l_durée = Label(frame_détails, text="Durée", height=1, anchor=NW, font=("Ivy 10"), bg=co1, fg=co4)
+    l_durée.place(x=4, y=70)
 
 def Sauver():
     print("Sauver")
