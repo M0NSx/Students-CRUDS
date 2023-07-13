@@ -123,6 +123,9 @@ def Ajouter():
             tree_cours.insert('', 'end', values=item)
 
     montrer_cours()
+
+    l_ligne = Label(frame_détails, relief=GROOVE, text="h", height=100, anchor=NW, font=("Ivy 1"), bg=co0, fg=co0)
+
 def Sauver():
     print("Sauver")
 
