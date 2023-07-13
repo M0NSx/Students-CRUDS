@@ -74,6 +74,7 @@ def Ajouter():
     e_durée.place(x=7, y=100)
 
     l_prix = Label(frame_détails, text="Prix", height=1, anchor=NW, font=("Ivy 10"), bg=co1, fg=co4)
+    l_prix.place(x=4, y=130)
 
 def Sauver():
     print("Sauver")
