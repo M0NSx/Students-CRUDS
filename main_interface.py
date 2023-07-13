@@ -127,6 +127,7 @@ def Ajouter():
     l_ligne = Label(frame_détails, relief=GROOVE, text="h", height=100, anchor=NW, font=("Ivy 1"), bg=co0, fg=co0)
     l_ligne.place(x=374, y=10)
     l_ligne = Label(frame_détails, relief=GROOVE, text="h", height=100, anchor=NW, font=("Ivy 1"), bg=co1, fg=co0)
+    l_ligne.place(x=372, y=10)
 
 def Sauver():
     print("Sauver")
