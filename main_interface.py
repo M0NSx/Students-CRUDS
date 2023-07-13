@@ -78,6 +78,8 @@ def Ajouter():
     e_prix = Entry(frame_détails, width=10, justify="left", relief="solid")
     e_prix.place(x=7, y=160)
 
+    bouton_sauver1 = Button(frame_détails, anchor=CENTER, text="Sauver".upper(), width=10, overrelief=RIDGE, font=("Ivy 7"), bg=co3, fg=co1)
+
 def Sauver():
     print("Sauver")
 
