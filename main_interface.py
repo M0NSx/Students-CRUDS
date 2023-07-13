@@ -115,6 +115,7 @@ def Ajouter():
 
         for col in list_header:
             tree_cours.heading(col, text=col.title(), anchor=NW)
+            tree_cours.column(col, width=h[n],anchor=hd[n])
 
 def Sauver():
     print("Sauver")
