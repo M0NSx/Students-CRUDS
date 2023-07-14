@@ -159,6 +159,7 @@ def Ajouter():
     c_cours.place(x=407, y=100)
 
     l_date_initiale = Label(frame_détails, text="Date initiale", height=1, anchor=NW, font=("Ivy 10"), bg=co1, fg=co4)
+    l_date_initiale.place(x=406, y=130)
 
 def Sauver():
     print("Sauver")
