@@ -179,6 +179,10 @@ def Ajouter():
         # creating a treeview with dual scrollbars
         list_header = ['ID','Nom du classe','Cours','Date initiale']
 
+        df_list = []
+
+        global tree_classe
+
 def Sauver():
     print("Sauver")
 
