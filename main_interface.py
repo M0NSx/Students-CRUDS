@@ -176,6 +176,9 @@ def Ajouter():
         app_nome = Label(frame_tableau_classe, text="Tableau du classe", height=1,pady=0, padx=0, relief="flat", anchor=NW, font=('Ivy 10 bold'), bg=co1, fg=co4)
         app_nome.grid(row=0, column=0, padx=0, pady=10, sticky=NSEW)
 
+        # creating a treeview with dual scrollbars
+        list_header = ['ID','Nom du classe','Cours','Date initiale']
+
 def Sauver():
     print("Sauver")
 
