@@ -187,6 +187,8 @@ def Ajouter():
 
         vsb = ttk.Scrollbar(frame_tableau_classe, orient="vertical", command=tree_classe.yview)
 
+        hsb = ttk.Scrollbar(frame_tableau_classe, orient="horizontal", command=tree_classe.xview)
+
 def Sauver():
     print("Sauver")
 
