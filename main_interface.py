@@ -138,6 +138,9 @@ def Ajouter():
     l_ligne = Label(frame_tableau_ligne, relief=GROOVE, text="h", height=140, anchor=NW, font=("Ivy 1"), bg=co1, fg=co0)
     l_ligne.place(x=4, y=10)
 
+    #détails du classe
+
+
 def Sauver():
     print("Sauver")
 
