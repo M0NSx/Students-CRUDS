@@ -183,6 +183,8 @@ def Ajouter():
 
         global tree_classe
 
+        tree_classe = ttk.Treeview(frame_tableau_classe, selectmode="extended",columns=list_header, show="headings")
+
 def Sauver():
     print("Sauver")
 
