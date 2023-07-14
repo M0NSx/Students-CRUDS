@@ -172,6 +172,10 @@ def Ajouter():
     bouton_supprimer2 = Button(frame_détails, anchor=CENTER, text="Supprimer".upper(), width=10, overrelief=RIDGE, font=("Ivy 7"), bg=co7, fg=co1)
     bouton_supprimer2.place(x=667, y=160)
 
+    def montrer_classe():
+        app_nome = Label(frame_tableau_classe, text="Tableau du classe", height=1,pady=0, padx=0, relief="flat", anchor=NW, font=('Ivy 10 bold'), bg=co1, fg=co4)
+        app_nome.grid(row=0, column=0, padx=0, pady=10, sticky=NSEW)
+
 def Sauver():
     print("Sauver")
 
