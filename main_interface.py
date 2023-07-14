@@ -151,6 +151,9 @@ def Ajouter():
     les_cours = ["cours1", "cours2"]
     cours = []
 
+    for i in les_cours:
+        cours.append(i)
+
 def Sauver():
     print("Sauver")
 
