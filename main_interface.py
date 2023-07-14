@@ -201,6 +201,9 @@ def Ajouter():
 
         for col in list_header:
             tree_classe.heading(col, text=col.title(), anchor=NW)
+            tree_classe.column(col, width=h[n],anchor=hd[n])
+            
+            n+=1
 
 def Sauver():
     print("Sauver")
