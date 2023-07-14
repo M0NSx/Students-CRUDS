@@ -63,7 +63,7 @@ def Ajouter():
     frame_tableau_ligne = Frame(frame_tableau, width=30, height=200, bg=co1)
     frame_tableau_ligne.grid(row=0, column=1, pady=0, padx=10, sticky=NSEW)
 
-    frame_tableau_classe = Frame(frame_tableau, width=300, height=200, bg=co4)
+    frame_tableau_classe = Frame(frame_tableau, width=300, height=200, bg=co1)
     frame_tableau_classe.grid(row=0, column=2, pady=0, padx=10, sticky=NSEW)
 
     l_nom = Label(frame_détails, text="Nom du cours", height=1, anchor=NW, font=("Ivy 10"), bg=co1, fg=co4)
