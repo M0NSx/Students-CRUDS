@@ -195,6 +195,10 @@ def Ajouter():
         hsb.grid(column=0, row=2, sticky='ew')
         frame_tableau_classe.grid_rowconfigure(0, weight=12)
 
+        hd=["nw","nw","e","e"]
+        h=[30,130,150,80]
+        n=0
+
 def Sauver():
     print("Sauver")
 
