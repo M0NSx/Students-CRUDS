@@ -164,6 +164,7 @@ def Ajouter():
     date_initiale.place(x=407, y=160)
 
     bouton_sauver2 = Button(frame_détails, anchor=CENTER, text="Sauver".upper(), width=10, overrelief=RIDGE, font=("Ivy 7"), bg=co3, fg=co1)
+    bouton_sauver2.place(x=507, y=160)
 
 def Sauver():
     print("Sauver")
