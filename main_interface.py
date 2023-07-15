@@ -76,6 +76,7 @@ def Étudiants():
     c_sexe.place(x=190, y=160)
 
     l_date_naissance = Label(frame_détails, text="Date de naissance", height=1, anchor=NW, font=("Ivy 10"), bg=co1, fg=co4)
+    l_date_naissance.place(x=446, y=10)
 
 def Ajouter():
     frame_tableau_cours = Frame(frame_tableau, width=300, height=200, bg=co1)
