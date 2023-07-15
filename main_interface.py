@@ -93,6 +93,7 @@ def Étudiants():
 
     l_classe = Label(frame_détails, text="Cours", height=1, anchor=NW, font=("Ivy 10"), bg=co1, fg=co4)
     l_classe.place(x=446, y=130)
+    c_classe = ttk.Combobox(frame_détails, width=20, font=("Ivy 8 bold"))
 
 def Ajouter():
     frame_tableau_cours = Frame(frame_tableau, width=300, height=200, bg=co1)
