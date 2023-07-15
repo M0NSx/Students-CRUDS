@@ -95,6 +95,7 @@ def Étudiants():
     l_classe.place(x=446, y=130)
     c_classe = ttk.Combobox(frame_détails, width=20, font=("Ivy 8 bold"))
     c_classe['values'] = (classe)
+    c_classe.place(x=450, y=160)
 
 def Ajouter():
     frame_tableau_cours = Frame(frame_tableau, width=300, height=200, bg=co1)
