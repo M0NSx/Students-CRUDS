@@ -73,6 +73,7 @@ def Étudiants():
     l_sexe.place(x=190, y=130)
     c_sexe = ttk.Combobox(frame_détails, width=12, font=("Ivy 8 bold"))
     c_sexe['values'] = ("Masculin","Feminine")
+    c_sexe.place(x=190, y=160)
 
 def Ajouter():
     frame_tableau_cours = Frame(frame_tableau, width=300, height=200, bg=co1)
