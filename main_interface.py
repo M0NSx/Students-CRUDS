@@ -85,6 +85,8 @@ def Étudiants():
     e_cpf = Entry(frame_détails, width=20, justify="left", relief="solid")
     e_cpf.place(x=450, y=100)
 
+    les_classe = ["Classe A", "Classe B"]
+
 def Ajouter():
     frame_tableau_cours = Frame(frame_tableau, width=300, height=200, bg=co1)
     frame_tableau_cours.grid(row=0, column=0, pady=0, padx=10, sticky=NSEW)
