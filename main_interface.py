@@ -54,7 +54,7 @@ app_lg = Label(frame_logo, image=app_logo, text="Registre des étudiants", width
 app_lg.place(x=0, y=0)
 
 def Étudiants():
-    print("Étudiant")
+    l_nom = Label(frame_détails, text="Nom", height=1, anchor=NW, font=("Ivy 10"), bg=co1, fg=co4)
 
 def Ajouter():
     frame_tableau_cours = Frame(frame_tableau, width=300, height=200, bg=co1)
