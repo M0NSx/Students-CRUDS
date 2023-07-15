@@ -60,6 +60,7 @@ def Étudiants():
     e_nom.place(x=7, y=40)
 
     l_email = Label(frame_détails, text="Email", height=1, anchor=NW, font=("Ivy 10"), bg=co1, fg=co4)
+    l_email.place(x=4, y=70)
 
 def Ajouter():
     frame_tableau_cours = Frame(frame_tableau, width=300, height=200, bg=co1)
