@@ -89,6 +89,7 @@ def Étudiants():
     classe = []
 
     for i in les_classe:
+        classe.append(i)
 
 def Ajouter():
     frame_tableau_cours = Frame(frame_tableau, width=300, height=200, bg=co1)
