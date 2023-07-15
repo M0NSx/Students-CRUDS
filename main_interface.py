@@ -69,6 +69,8 @@ def Étudiants():
     e_téléphone = Entry(frame_détails, width=20, justify="left", relief="solid")
     e_téléphone.place(x=7, y=160)
 
+    l_sexe = Label(frame_détails, text="Sexe", height=1, anchor=NW, font=("Ivy 10"), bg=co1, fg=co4)
+
 def Ajouter():
     frame_tableau_cours = Frame(frame_tableau, width=300, height=200, bg=co1)
     frame_tableau_cours.grid(row=0, column=0, pady=0, padx=10, sticky=NSEW)
