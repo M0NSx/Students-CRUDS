@@ -167,6 +167,8 @@ def Étudiants():
         h=[40,150,150,70,70,70,80,80,100]
         n=0
 
+        for col in list_header:
+            tree_étudiants.heading(col, text=col.title(), anchor=NW)
 def Ajouter():
     frame_tableau_cours = Frame(frame_tableau, width=300, height=200, bg=co1)
     frame_tableau_cours.grid(row=0, column=0, pady=0, padx=10, sticky=NSEW)
