@@ -109,6 +109,8 @@ def Étudiants():
         image = ImageTk.PhotoImage(image)
         l_image = Label(frame_détails, image=image, bg=co1, fg=co4)
         l_image.place(x=300, y=10)
+        
+    bouton_charger['text'] = 'Changer Image'
 
 
 def Ajouter():
