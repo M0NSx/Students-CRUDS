@@ -101,6 +101,9 @@ def Étudiants():
 
     def choisir_image():
         global image, image_string, l_image
+        
+        image = fd.askopenfilename()
+
 
 def Ajouter():
     frame_tableau_cours = Frame(frame_tableau, width=300, height=200, bg=co1)
