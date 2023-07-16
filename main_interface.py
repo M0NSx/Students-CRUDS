@@ -163,6 +163,10 @@ def Étudiants():
         hsb.grid(column=0, row=2, sticky='ew')
         frame_tableau.grid_rowconfigure(0, weight=12)
 
+        hd=["nw","nw","nw","center", "center", "center", "center", "center", "center",]
+        h=[40,150,150,70,70,70,80,80,100]
+        n=0
+
 def Ajouter():
     frame_tableau_cours = Frame(frame_tableau, width=300, height=200, bg=co1)
     frame_tableau_cours.grid(row=0, column=0, pady=0, padx=10, sticky=NSEW)
