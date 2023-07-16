@@ -104,6 +104,7 @@ def Étudiants():
         
         image = fd.askopenfilename()
         image_string = image
+        image = Image.open(image)
 
 
 def Ajouter():
