@@ -146,6 +146,10 @@ def Étudiants():
 
         # creating a treeview with dual scrollbars
         list_header = ['ID','Nom','Email','Téléphone', 'Sexe', 'Image', 'Date', 'CPF', 'Cours']
+
+        df_list = []
+
+        global tree_étudiants
         
 def Ajouter():
     frame_tableau_cours = Frame(frame_tableau, width=300, height=200, bg=co1)
