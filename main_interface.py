@@ -140,6 +140,9 @@ def Étudiants():
     bouton_voir = Button(frame_détails, anchor=CENTER, text="Voir".upper(), width=9, overrelief=RIDGE, font=("Ivy 7 bold"), bg=co1, fg=co0)
     bouton_voir.place(x=727, y=160)
 
+    def montrer_étudiants():
+        app_nome = Label(frame_tableau, text="Tableau des étudiants", height=1,pady=0, padx=0, relief="flat", anchor=NW, font=('Ivy 10 bold'), bg=co1, fg=co4)
+        app_nome.grid(row=0, column=0, padx=0, pady=10, sticky=NSEW)
 
 def Ajouter():
     frame_tableau_cours = Frame(frame_tableau, width=300, height=200, bg=co1)
