@@ -103,6 +103,7 @@ def Étudiants():
         global image, image_string, l_image
         
         image = fd.askopenfilename()
+        image_string = image
 
 
 def Ajouter():
