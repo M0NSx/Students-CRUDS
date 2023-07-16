@@ -115,6 +115,8 @@ def Étudiants():
     bouton_charger = Button(frame_détails, command=choisir_image, text="Charger image".upper(), width=20, compound=CENTER, anchor=CENTER, overrelief=RIDGE, font=('Ivy 7'), bg=co1, fg=co0)
     bouton_charger.place(x=300, y=160)
 
+    l_ligne = Label(frame_détails, relief=GROOVE, text="h", height=100, anchor=NW, font=("Ivy 1"), bg=co0, fg=co0)
+
 
 def Ajouter():
     frame_tableau_cours = Frame(frame_tableau, width=300, height=200, bg=co1)
