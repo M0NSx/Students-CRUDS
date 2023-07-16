@@ -121,6 +121,7 @@ def Étudiants():
     l_ligne.place(x=608, y=10)
 
     l_nom1 = Label(frame_détails, text="Rechercher étudiant", height=1, anchor=NW, font=("Ivy 10"), bg=co1, fg=co4)
+    l_nom1.place(x=627, y=10)
 
 
 def Ajouter():
