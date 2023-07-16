@@ -144,6 +144,9 @@ def Étudiants():
         app_nome = Label(frame_tableau, text="Tableau des étudiants", height=1,pady=0, padx=0, relief="flat", anchor=NW, font=('Ivy 10 bold'), bg=co1, fg=co4)
         app_nome.grid(row=0, column=0, padx=0, pady=10, sticky=NSEW)
 
+        # creating a treeview with dual scrollbars
+        list_header = ['ID','Nom','Email','Téléphone', 'Sexe', 'Image', 'Date', 'CPF', 'Cours']
+        
 def Ajouter():
     frame_tableau_cours = Frame(frame_tableau, width=300, height=200, bg=co1)
     frame_tableau_cours.grid(row=0, column=0, pady=0, padx=10, sticky=NSEW)
