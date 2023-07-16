@@ -158,6 +158,7 @@ def Étudiants():
         hsb = ttk.Scrollbar(frame_tableau, orient="horizontal", command=tree_étudiants.xview)
 
         tree_étudiants.configure(yscrollcommand=vsb.set, xscrollcommand=hsb.set)
+        tree_étudiants.grid(column=0, row=1, sticky='nsew')
 
 def Ajouter():
     frame_tableau_cours = Frame(frame_tableau, width=300, height=200, bg=co1)
