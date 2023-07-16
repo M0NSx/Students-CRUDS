@@ -110,7 +110,9 @@ def Étudiants():
         l_image = Label(frame_détails, image=image, bg=co1, fg=co4)
         l_image.place(x=300, y=10)
         
-    bouton_charger['text'] = 'Changer Image'
+        bouton_charger['text'] = 'Changer Image'
+
+    bouton_charger = Button(frame_détails, command=choisir_image, text="Charger image".upper(), width=20, compound=CENTER, anchor=CENTER, overrelief=RIDGE, font=('Ivy 7'), bg=co1, fg=co0)
 
 
 def Ajouter():
