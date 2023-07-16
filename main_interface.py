@@ -106,6 +106,7 @@ def Étudiants():
         image_string = image
         image = Image.open(image)
         image = image.resize((130,130))
+        image = ImageTk.PhotoImage(image)
 
 
 def Ajouter():
