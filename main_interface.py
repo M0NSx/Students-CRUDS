@@ -125,6 +125,8 @@ def Étudiants():
     e_nom_rechercher = Entry(frame_détails, width=17, justify="center", relief="solid", font=("Ivy 10"))
     e_nom_rechercher.place(x=630, y=35)
 
+    bouton_rechercher = Button(frame_détails, anchor=CENTER, text="Rechercher", width=9, overrelief=RIDGE, font=("Ivy 7 bold"), bg=co1, fg=co4)
+
 
 def Ajouter():
     frame_tableau_cours = Frame(frame_tableau, width=300, height=200, bg=co1)
