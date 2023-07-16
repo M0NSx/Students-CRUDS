@@ -99,6 +99,8 @@ def Étudiants():
 
     global image, image_string, l_image
 
+    def choisir_image():
+        global image, image_string, l_image
 
 def Ajouter():
     frame_tableau_cours = Frame(frame_tableau, width=300, height=200, bg=co1)
