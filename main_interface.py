@@ -128,6 +128,8 @@ def Étudiants():
     bouton_rechercher = Button(frame_détails, anchor=CENTER, text="Rechercher", width=9, overrelief=RIDGE, font=("Ivy 7 bold"), bg=co1, fg=co4)
     bouton_rechercher.place(x=757, y=35)
 
+    bouton_sauver2 = Button(frame_détails,  anchor=CENTER, text="Sauver".upper(), width=9, overrelief=RIDGE, font=("Ivy 7 bold"), bg=co3, fg=co1)
+
 
 def Ajouter():
     frame_tableau_cours = Frame(frame_tableau, width=300, height=200, bg=co1)
