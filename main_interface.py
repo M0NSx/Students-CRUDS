@@ -247,6 +247,8 @@ def Ajouter():
 
                 montrer_cours()
 
+                bouton_sauver3.destroy()
+
     l_nom = Label(frame_détails, text="Nom du cours", height=1, anchor=NW, font=("Ivy 10"), bg=co1, fg=co4)
     l_nom.place(x=4, y=10)
     e_nom_cours = Entry(frame_détails, width=35, justify="left", relief="solid")
@@ -306,7 +308,7 @@ def Ajouter():
         for item in df_list:
             tree_cours.insert('', 'end', values=item)
 
-    montrer_cours()
+            montrer_cours()
 
     #séparateur de ligne
     l_ligne = Label(frame_détails, relief=GROOVE, text="h", height=100, anchor=NW, font=("Ivy 1"), bg=co0, fg=co0)
