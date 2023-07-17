@@ -216,6 +216,7 @@ def Ajouter():
     def actualiser_cours():
         try:
             tree_itens = tree_cours.focus()
+            tree_dictionnaire = tree_cours.item(tree_itens)
 
     l_nom = Label(frame_détails, text="Nom du cours", height=1, anchor=NW, font=("Ivy 10"), bg=co1, fg=co4)
     l_nom.place(x=4, y=10)
