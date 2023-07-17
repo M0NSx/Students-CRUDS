@@ -223,6 +223,7 @@ def Ajouter():
 
             e_nom_cours.insert(0, tree_liste[1])
             e_durée.insert(0, tree_liste[2])
+            e_prix.insert(0, tree_liste[3])
 
     l_nom = Label(frame_détails, text="Nom du cours", height=1, anchor=NW, font=("Ivy 10"), bg=co1, fg=co4)
     l_nom.place(x=4, y=10)
