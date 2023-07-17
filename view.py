@@ -32,8 +32,6 @@ def update_cours(i):
         query = "UPDATE courses SET nom=?, durée=?, prix=?, WHERE id=?"
         cur.execute(query, i)
 
-liste = ['Python','cinq semaines', 60, 1]
-
 def supprimer_cours(i):
     with banque:
         cur = banque.cursor()
