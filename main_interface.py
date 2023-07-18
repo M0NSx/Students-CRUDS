@@ -344,6 +344,9 @@ def Ajouter():
     l_ligne.place(x=4, y=10)
 
     #détails du classe
+    def nouveau_classe():
+
+    
     l_nom = Label(frame_détails, text="Nom du classe", height=1, anchor=NW, font=("Ivy 10"), bg=co1, fg=co4)
     l_nom.place(x=404, y=10)
     e_nom_classe = Entry(frame_détails, width=35, justify="left", relief="solid")
