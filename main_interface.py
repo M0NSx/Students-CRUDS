@@ -395,6 +395,7 @@ def Ajouter():
                 messagebox.showinfo("Succès", "les données ont été insérées avec succès!")
 
                 e_nom_classe.delete(0,END)
+                c_cours.delete(0,END)
 
     l_nom = Label(frame_détails, text="Nom du classe", height=1, anchor=NW, font=("Ivy 10"), bg=co1, fg=co4)
     l_nom.place(x=404, y=10)
