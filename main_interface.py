@@ -376,6 +376,7 @@ def Ajouter():
 
             e_nom_classe.insert(0, tree_liste[1])
             c_cours.insert(0, tree_liste[2])
+            date_initiale.insert(0, tree_liste[3])
 
     l_nom = Label(frame_détails, text="Nom du classe", height=1, anchor=NW, font=("Ivy 10"), bg=co1, fg=co4)
     l_nom.place(x=404, y=10)
