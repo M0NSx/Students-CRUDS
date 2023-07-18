@@ -368,6 +368,7 @@ def Ajouter():
 
     def actualiser_classe():
         try:
+            tree_itens = tree_classe.focus()
 
     l_nom = Label(frame_détails, text="Nom du classe", height=1, anchor=NW, font=("Ivy 10"), bg=co1, fg=co4)
     l_nom.place(x=404, y=10)
