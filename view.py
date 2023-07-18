@@ -29,7 +29,7 @@ def voir_cours():
 def update_cours(i):
     with banque:
         cur = banque.cursor()
-        query = "UPDATE courses SET nom=?, durée=?, prix=?, WHERE id=?"
+        query = "UPDATE courses SET nom=?, durée=?, prix=? WHERE id=?"
         cur.execute(query, i)
 
 def supprimer_cours(i):
@@ -61,7 +61,7 @@ def voir_classes():
 def update_classes(i):
     with banque:
         cur = banque.cursor()
-        query = "UPDATE classes SET nom=?, course_nom=?, nitiale_date=?, WHERE id=?"
+        query = "UPDATE classes SET nom=?, course_nom=?, nitiale_date=? WHERE id=?"
         cur.execute(query, i)
 
 def supprimer_classes(i):
@@ -91,7 +91,7 @@ def voir_étudiants():
 def update_étudiants(i):
     with banque:
         cur = banque.cursor()
-        query = "UPDATE classes SET nom=?, email=?, téléphone=?, sexe=?, image=?, date_naissance=? cpf=?, classe_nom=?, WHERE id=?"
+        query = "UPDATE classes SET nom=?, email=?, téléphone=?, sexe=?, image=?, date_naissance=? cpf=?, classe_nom=? WHERE id=?"
         cur.execute(query, i)
 
 def supprimer_étudiants(i):
