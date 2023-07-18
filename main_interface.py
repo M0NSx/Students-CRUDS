@@ -398,6 +398,10 @@ def Ajouter():
                 c_cours.delete(0,END)
                 date_initiale.delete(0,END)
 
+                montrer_classe()
+
+                bouton_sauver3.destroy()
+
     l_nom = Label(frame_détails, text="Nom du classe", height=1, anchor=NW, font=("Ivy 10"), bg=co1, fg=co4)
     l_nom.place(x=404, y=10)
     e_nom_classe = Entry(frame_détails, width=35, justify="left", relief="solid")
