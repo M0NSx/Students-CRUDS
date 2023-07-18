@@ -386,6 +386,7 @@ def Ajouter():
                 liste = [nom, cours, date, valeur_id]
 
                 for i in liste:
+                    if i == "":
 
     l_nom = Label(frame_détails, text="Nom du classe", height=1, anchor=NW, font=("Ivy 10"), bg=co1, fg=co4)
     l_nom.place(x=404, y=10)
