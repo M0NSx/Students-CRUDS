@@ -374,6 +374,8 @@ def Ajouter():
 
             valeur_id = tree_liste[0]
 
+            e_nom_classe.insert(0, tree_liste[1])
+
     l_nom = Label(frame_détails, text="Nom du classe", height=1, anchor=NW, font=("Ivy 10"), bg=co1, fg=co4)
     l_nom.place(x=404, y=10)
     e_nom_classe = Entry(frame_détails, width=35, justify="left", relief="solid")
