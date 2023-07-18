@@ -286,13 +286,13 @@ def Ajouter():
     e_prix = Entry(frame_détails, width=10, justify="left", relief="solid")
     e_prix.place(x=7, y=160)
 
-    bouton_sauver1 = Button(frame_détails, anchor=CENTER, text="Sauver".upper(), width=10, overrelief=RIDGE, font=("Ivy 7"), bg=co3, fg=co1)
+    bouton_sauver1 = Button(frame_détails, command=nouveau_cours, anchor=CENTER, text="Sauver".upper(), width=10, overrelief=RIDGE, font=("Ivy 7"), bg=co3, fg=co1)
     bouton_sauver1.place(x=107, y=160)
 
-    bouton_update1 = Button(frame_détails, anchor=CENTER, text="Update".upper(), width=10, overrelief=RIDGE, font=("Ivy 7"), bg=co6, fg=co1)
+    bouton_update1 = Button(frame_détails, command=actualiser_cours, anchor=CENTER, text="Update".upper(), width=10, overrelief=RIDGE, font=("Ivy 7"), bg=co6, fg=co1)
     bouton_update1.place(x=187, y=160)
 
-    bouton_supprimer1 = Button(frame_détails, anchor=CENTER, text="Supprimer".upper(), width=10, overrelief=RIDGE, font=("Ivy 7"), bg=co7, fg=co1)
+    bouton_supprimer1 = Button(frame_détails, command=supprimer_course, anchor=CENTER, text="Supprimer".upper(), width=10, overrelief=RIDGE, font=("Ivy 7"), bg=co7, fg=co1)
     bouton_supprimer1.place(x=267, y=160)
 
     def montrer_cours():
@@ -408,13 +408,13 @@ def Ajouter():
     date_initiale = DateEntry(frame_détails, width=10, background='darkblue', foreground='white', borderwidth=2, year=2023)
     date_initiale.place(x=407, y=160)
 
-    bouton_sauver2 = Button(frame_détails, anchor=CENTER, text="Sauver".upper(), width=10, overrelief=RIDGE, font=("Ivy 7"), bg=co3, fg=co1)
+    bouton_sauver2 = Button(frame_détails, command=nouveau_classe, anchor=CENTER, text="Sauver".upper(), width=10, overrelief=RIDGE, font=("Ivy 7"), bg=co3, fg=co1)
     bouton_sauver2.place(x=507, y=160)
 
-    bouton_update2 = Button(frame_détails, anchor=CENTER, text="Update".upper(), width=10, overrelief=RIDGE, font=("Ivy 7"), bg=co6, fg=co1)
+    bouton_update2 = Button(frame_détails, command=actualiser_classe, anchor=CENTER, text="Update".upper(), width=10, overrelief=RIDGE, font=("Ivy 7"), bg=co6, fg=co1)
     bouton_update2.place(x=587, y=160)
 
-    bouton_supprimer2 = Button(frame_détails, anchor=CENTER, text="Supprimer".upper(), width=10, overrelief=RIDGE, font=("Ivy 7"), bg=co7, fg=co1)
+    bouton_supprimer2 = Button(frame_détails, command=supprimer_classe, anchor=CENTER, text="Supprimer".upper(), width=10, overrelief=RIDGE, font=("Ivy 7"), bg=co7, fg=co1)
     bouton_supprimer2.place(x=667, y=160)
 
     def montrer_classe():
