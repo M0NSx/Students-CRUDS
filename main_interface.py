@@ -381,6 +381,7 @@ def Ajouter():
             def update():
                 nom = e_nom_classe.get()
                 cours = c_cours.get()
+                date = date_initiale.get()
 
     l_nom = Label(frame_détails, text="Nom du classe", height=1, anchor=NW, font=("Ivy 10"), bg=co1, fg=co4)
     l_nom.place(x=404, y=10)
