@@ -65,6 +65,7 @@ def Étudiants():
         sexe = c_sexe.get()
         naissance = date_naissance.get()
         cpf = e_cpf.get()
+        cours = c_classe.get()
 
     
     l_nom = Label(frame_détails, text="Nom", height=1, anchor=NW, font=("Ivy 10"), bg=co1, fg=co4)
