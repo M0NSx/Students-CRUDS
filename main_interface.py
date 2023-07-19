@@ -66,6 +66,7 @@ def Étudiants():
         naissance = date_naissance.get()
         cpf = e_cpf.get()
         cours = c_classe.get()
+        image = image_string
 
     
     l_nom = Label(frame_détails, text="Nom", height=1, anchor=NW, font=("Ivy 10"), bg=co1, fg=co4)
