@@ -63,6 +63,7 @@ def Étudiants():
         email = e_email.get()
         téléphone = e_téléphone.get()
         sexe = c_sexe.get()
+        naissance = date_naissance.get()
 
     
     l_nom = Label(frame_détails, text="Nom", height=1, anchor=NW, font=("Ivy 10"), bg=co1, fg=co4)
