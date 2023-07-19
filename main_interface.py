@@ -70,6 +70,8 @@ def Étudiants():
 
         liste = [nom, email, téléphone, sexe, image, naissance, cpf, cours]
 
+        for i in liste:
+
     
     l_nom = Label(frame_détails, text="Nom", height=1, anchor=NW, font=("Ivy 10"), bg=co1, fg=co4)
     l_nom.place(x=4, y=10)
