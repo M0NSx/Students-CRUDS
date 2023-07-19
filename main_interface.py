@@ -135,6 +135,7 @@ def Étudiants():
     c_classe['values'] = (classe)
     c_classe.place(x=450, y=160)
 
+    #Fonction pour choisir les images
     global image, image_string, l_image
 
     def choisir_image():
