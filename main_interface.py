@@ -80,6 +80,7 @@ def Étudiants():
 
         messagebox.showinfo("Succès", "Tu rempli tout avec succès!")
 
+        #Nettoyage des entrées
         e_nom.delete(0,END)
         e_email.delete(0,END)
         c_sexe.delete(0,END)
