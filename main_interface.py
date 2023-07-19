@@ -57,6 +57,7 @@ app_lg.place(x=0, y=0)
 
 def Étudiants():
     def nouveu_étudiants():
+        global image, image_string, l_image
 
     
     l_nom = Label(frame_détails, text="Nom", height=1, anchor=NW, font=("Ivy 10"), bg=co1, fg=co4)
