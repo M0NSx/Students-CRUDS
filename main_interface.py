@@ -60,6 +60,7 @@ def Étudiants():
         global image, image_string, l_image
         
         nom = e_nom.get()
+        email = e_email.get()
 
     
     l_nom = Label(frame_détails, text="Nom", height=1, anchor=NW, font=("Ivy 10"), bg=co1, fg=co4)
