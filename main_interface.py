@@ -73,6 +73,7 @@ def Étudiants():
         for i in liste:
             if i == "":
                 messagebox.showerror('Erreur', "Il faut remplir l'espace")
+                return
 
     
     l_nom = Label(frame_détails, text="Nom", height=1, anchor=NW, font=("Ivy 10"), bg=co1, fg=co4)
