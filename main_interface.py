@@ -55,6 +55,7 @@ app_logo = ImageTk.PhotoImage(app_logo)
 app_lg = Label(frame_logo, image=app_logo, text="Registre des étudiants", width=850, compound=LEFT, relief=RAISED, anchor=NW, font=('Ivy 15 bold'), bg=co6, fg=co1)
 app_lg.place(x=0, y=0)
 
+#Fonction d'inscription des étudiants
 def Étudiants():
     def nouveu_étudiants():
         global image, image_string, l_image
