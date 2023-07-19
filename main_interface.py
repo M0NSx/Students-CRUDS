@@ -56,6 +56,9 @@ app_lg = Label(frame_logo, image=app_logo, text="Registre des étudiants", width
 app_lg.place(x=0, y=0)
 
 def Étudiants():
+    def nouveu_étudiants():
+
+    
     l_nom = Label(frame_détails, text="Nom", height=1, anchor=NW, font=("Ivy 10"), bg=co1, fg=co4)
     l_nom.place(x=4, y=10)
     e_nom = Entry(frame_détails, width=45, justify="left", relief="solid")
