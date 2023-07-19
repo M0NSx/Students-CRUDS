@@ -143,6 +143,8 @@ def Étudiants():
         
         image = fd.askopenfilename()
         image_string = image
+        
+        #Photo d'ouverture
         image = Image.open(image)
         image = image.resize((130,130))
         image = ImageTk.PhotoImage(image)
