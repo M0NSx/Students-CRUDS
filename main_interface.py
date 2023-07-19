@@ -159,6 +159,7 @@ def Étudiants():
     e_nom_rechercher = Entry(frame_détails, width=17, justify="center", relief="solid", font=("Ivy 10"))
     e_nom_rechercher.place(x=630, y=35)
 
+    #~~~Boutons
     bouton_rechercher = Button(frame_détails, anchor=CENTER, text="Rechercher", width=9, overrelief=RIDGE, font=("Ivy 7 bold"), bg=co1, fg=co4)
     bouton_rechercher.place(x=757, y=35)
 
