@@ -123,7 +123,7 @@ def Étudiants():
     classe = []
 
     for i in les_classe:
-        classe.append(i)
+        classe.append(i[)
 
     l_classe = Label(frame_détails, text="Cours", height=1, anchor=NW, font=("Ivy 10"), bg=co1, fg=co4)
     l_classe.place(x=446, y=130)
