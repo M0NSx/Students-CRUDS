@@ -110,6 +110,7 @@ def Étudiants():
             c_classe.delete(0,END)
 
             e_nom.insert(0,tree_liste[1])
+            e_email.insert(0,tree_liste[2])
 
     #Création d'entrées
     l_nom = Label(frame_détails, text="Nom", height=1, anchor=NW, font=("Ivy 10"), bg=co1, fg=co4)
