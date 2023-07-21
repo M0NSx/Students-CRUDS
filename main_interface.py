@@ -101,6 +101,8 @@ def Étudiants():
             
             valeur_id = tree_liste[0]
 
+            e_nom.delete(0,END)
+
     #Création d'entrées
     l_nom = Label(frame_détails, text="Nom", height=1, anchor=NW, font=("Ivy 10"), bg=co1, fg=co4)
     l_nom.place(x=4, y=10)
