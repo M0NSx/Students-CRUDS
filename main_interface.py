@@ -149,6 +149,21 @@ def Étudiants():
 
                 e_nom.delete(0,END)
                 e_email.delete(0,END)
+                e_téléphone.delete(0,END)
+                c_sexe.delete(0,END)
+                date_naissance.delete(0,END)
+                e_cpf.delete(0,END)
+                c_classe.delete(0,END)
+
+                montrer_étudiants()
+
+                bouton_sauver.destroy()
+
+            bouton_sauver = Button(frame_détails, command=update, anchor=CENTER, text="Sauver".upper(), width=9, overrelief=RIDGE, font=("Ivy 7 bold"), bg=co3, fg=co1)
+            bouton_sauver.place(x=727, y=130)
+
+        except IndexError:
+            messagebox.showerror('Erreur',"Sélectionnez l'un des étudiants du tableau")
 
     #Création d'entrées
     l_nom = Label(frame_détails, text="Nom", height=1, anchor=NW, font=("Ivy 10"), bg=co1, fg=co4)
