@@ -118,6 +118,7 @@ def Étudiants():
             c_classe.insert(0,tree_liste[8])
 
             image = tree_liste[5]
+            image_string = image
 
     #Création d'entrées
     l_nom = Label(frame_détails, text="Nom", height=1, anchor=NW, font=("Ivy 10"), bg=co1, fg=co4)
