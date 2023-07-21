@@ -107,6 +107,7 @@ def Étudiants():
             c_sexe.delete(0,END)
             date_naissance.delete(0,END)
             e_cpf.delete(0,END)
+            c_classe.delete(0,END)
 
     #Création d'entrées
     l_nom = Label(frame_détails, text="Nom", height=1, anchor=NW, font=("Ivy 10"), bg=co1, fg=co4)
