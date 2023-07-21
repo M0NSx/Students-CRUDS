@@ -138,6 +138,11 @@ def Étudiants():
 
                 liste = [nom, email, téléphone, sexe, image, naissance, cpf, cours, valeur_id]
 
+                for i in liste:
+                    if i == "":
+                        messagebox.showerror('Erreur', "Il faut remplir l'espace")
+                        return
+
     #Création d'entrées
     l_nom = Label(frame_détails, text="Nom", height=1, anchor=NW, font=("Ivy 10"), bg=co1, fg=co4)
     l_nom.place(x=4, y=10)
